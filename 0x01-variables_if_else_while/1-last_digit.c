@@ -6,8 +6,8 @@
  * Description: get a random number and check its last digit
  * Return: 0
  */
-int main(void) 
-{  
+int main(void)
+{
 int n;
 int last;
 srand(time(0));

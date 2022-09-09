@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * maim - Entry point
+ * Description: prints all single digit numbers of base 10
  * Return: 0
  */
 int main(void)
