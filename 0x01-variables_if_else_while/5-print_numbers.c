@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
  * maim - main block
  * Description: prints all single digit numbers of base 10 starting from 0
