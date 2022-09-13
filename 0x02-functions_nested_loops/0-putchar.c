@@ -5,12 +5,11 @@
  */
 int main(void)
 {
-int i =0;
-char put[] = "_putchar";
-while (i < 9)
+char *sh = "_putchar";
+while (*sh)
 {
-_putchar(put[i]);
-i++;
+_putchar(*sh);
+sh++;
 }
 _putchar('\n');
 return (0);
