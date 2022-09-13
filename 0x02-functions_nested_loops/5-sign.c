@@ -19,6 +19,6 @@ return (0);
 else
 {
 _putchar('-');
-retutn (-1);
+return (-1);
 }
 }
