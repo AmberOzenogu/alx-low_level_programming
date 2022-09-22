@@ -17,6 +17,6 @@ for (j = 0; src[j] != 0; j++)
 dest++;
 }
 *dest = '\0';
-dest -= (i +j);
+dest -= (i + j);
 return (dest);
 }
