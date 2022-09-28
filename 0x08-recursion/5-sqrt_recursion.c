@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * sqrt_check - checks for the square root of c
- * @g: guess at sqrt
- * @c: number
- * Return: -1 OR sqrt of c
+ * sqrt_check - returns the squareroot of a number
+ * @g: test number
+ * @c: squared number
+ * Return: the square root of c or -1
  */
 int sqrt_check(int g, int c)
 {
-if (g + g == c)
+if (g * g == c)
 return (g);
 if (g * g > c)
 return (-1);
