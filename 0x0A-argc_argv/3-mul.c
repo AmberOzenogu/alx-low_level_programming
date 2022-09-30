@@ -47,7 +47,7 @@ else if (result)
 break;
 s++;
 }
-return (result * sign_cache);
+return (result *sign_cache);
 }
 /**
  * multiply_two_nums - multiplies two numbers
