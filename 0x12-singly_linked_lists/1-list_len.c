@@ -1,17 +1,21 @@
 #include "lists.h"
-
 /**
- * list_len - Calculates the length of a linked list
- * @h: Pointer to the head of the linked list
- * Return: The total amount of nodes in the linked list
+ * print_list - prints all the elements of a list_t list.
+ * @h: singly linked list.
+ * Return: number of elements in the list.
  */
-size_t list_len(const list_t *h)
+size_t print_list(const list_t *h)
 {
-	int i;
-
-	if (h == NULL)
-		return (0);
-	for (i = 1; h->next != NULL; i++)
-		h = h->next;
-	return (i);
+size_t nelem;
+nelem = 0;
+while (h != NULL)
+{
+if (h->str == NULL)
+printf("[%d] %s\n", 0, "(nil)");
+else
+printf("[%d] %s\n", h->len, h->str);
+h = h->next;
+nelem++;
+}
+return (nelem);
 }
